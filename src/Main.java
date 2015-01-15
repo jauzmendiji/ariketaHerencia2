@@ -12,14 +12,14 @@ public class Main {
 
 	        
 	        System.out.print("--- Entrenador: ");
-	        System.out.print("\nNombre: " + entrenador.getNombree());
+	        System.out.print("\n\nNombre: " + entrenador.getNombree());
 	        System.out.print("\nEdad: " + entrenador.getEdade());
 	        System.out.print("\nExperiencia en primera: " + entrenador.getExpprimera());
-	        System.out.print("		--- Equipo: ");	
-	        System.out.print("\nNombre: " + entrenador.getNombret());
-   	        System.out.print("\nAño fundacion: " + entrenador.getAños());
-   	        System.out.print("\nLocalidad: " + entrenador.getLocalidad());
-   	        System.out.print("\nDivision actual: " + entrenador.getDivision());
+	        System.out.print("\n	--- Equipo: ");	
+	        System.out.print("\n    Nombre: " + entrenador.getNombret());
+   	        System.out.print("\n    Año fundacion: " + entrenador.getAños());
+   	        System.out.print("\n    Localidad: " + entrenador.getLocalidad());
+   	        System.out.print("\n    Division actual: " + entrenador.getDivision());
 
 	        Jugadores jugadores = new Jugadores();
 	        jugadores.setNombret("Real Madrid");
@@ -27,20 +27,20 @@ public class Main {
 	        jugadores.setLocalidad("Madrid");
 	        jugadores.setDivision("Primera");
 	        jugadores.setNombrej("Cristiano Ronaldo");
-	        jugadores.setEdade(29);
+	        jugadores.setEdadj(29);
 	       	jugadores.setPuesto("Extremo izquierdo");
 	        jugadores.setInternacional(true);
 	        
-	        System.out.print("\n--- Jugador: ");
-	        System.out.print("\nNombre: " + jugadores.getNombrej());
+	        System.out.print("\n\n--- Jugador: ");
+	        System.out.print("\n\nNombre: " + jugadores.getNombrej());
 	        System.out.print("\nEdad: " + jugadores.getEdadj());
 	        System.out.print("\nDemarcacion: " + jugadores.getPuesto());
-	       	System.out.print("\nInternacional: " + jugadores.getPuesto());
-	        System.out.print("		--- Equipo: ");	
-	        System.out.print("\nNombre: " + jugadores.getNombret());
-   	        System.out.print("\nAño fundacion: " + jugadores.getAños());
-   	        System.out.print("\nLocalidad: " + jugadores.getLocalidad());
-   	        System.out.print("\nDivision actual: " + jugadores.getDivision());
+	       	System.out.print("\nInternacional: " + jugadores.getInternacional());
+	        System.out.print("\n	--- Equipo: ");	
+	        System.out.print("\n    Nombre: " + jugadores.getNombret());
+   	        System.out.print("\n    Año fundacion: " + jugadores.getAños());
+   	        System.out.print("\n    Localidad: " + jugadores.getLocalidad());
+   	        System.out.print("\n    Division actual: " + jugadores.getDivision());
 
 	        //Hashtable
 
@@ -58,3 +58,4 @@ public class Main {
 	        
 	}
 }
+
